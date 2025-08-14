@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F87A01412E4DEF1300920480 /* giggle2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A01402E4DEF1300920480 /* giggle2App.swift */; };
+		F87A01432E4DEF1300920480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A01422E4DEF1300920480 /* ContentView.swift */; };
+		F87A01452E4DEF1400920480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87A01442E4DEF1400920480 /* Assets.xcassets */; };
+		F87A01482E4DEF1400920480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87A01472E4DEF1400920480 /* Preview Assets.xcassets */; };
+		F87A01532E4DEF1400920480 /* giggle2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A01522E4DEF1400920480 /* giggle2Tests.swift */; };
+		F87A015D2E4DEF1400920480 /* giggle2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A015C2E4DEF1400920480 /* giggle2UITests.swift */; };
+		F87A015F2E4DEF1400920480 /* giggle2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87A015E2E4DEF1400920480 /* giggle2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87A014F2E4DEF1400920480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87A01352E4DEF1300920480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87A013C2E4DEF1300920480;
+			remoteInfo = giggle2;
+		};
+		F87A01592E4DEF1400920480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87A01352E4DEF1300920480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87A013C2E4DEF1300920480;
+			remoteInfo = giggle2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F87A013D2E4DEF1300920480 /* giggle2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = giggle2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87A01402E4DEF1300920480 /* giggle2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giggle2App.swift; sourceTree = "<group>"; };
+		F87A01422E4DEF1300920480 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F87A01442E4DEF1400920480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87A01472E4DEF1400920480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F87A01492E4DEF1400920480 /* giggle2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = giggle2.entitlements; sourceTree = "<group>"; };
+		F87A014E2E4DEF1400920480 /* giggle2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giggle2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87A01522E4DEF1400920480 /* giggle2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giggle2Tests.swift; sourceTree = "<group>"; };
+		F87A01582E4DEF1400920480 /* giggle2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = giggle2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87A015C2E4DEF1400920480 /* giggle2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giggle2UITests.swift; sourceTree = "<group>"; };
+		F87A015E2E4DEF1400920480 /* giggle2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = giggle2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F87A013A2E4DEF1300920480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A014B2E4DEF1400920480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A01552E4DEF1400920480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F87A01342E4DEF1300920480 = {
+			isa = PBXGroup;
+			children = (
+				F87A013F2E4DEF1300920480 /* giggle2 */,
+				F87A01512E4DEF1400920480 /* giggle2Tests */,
+				F87A015B2E4DEF1400920480 /* giggle2UITests */,
+				F87A013E2E4DEF1300920480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F87A013E2E4DEF1300920480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87A013D2E4DEF1300920480 /* giggle2.app */,
+				F87A014E2E4DEF1400920480 /* giggle2Tests.xctest */,
+				F87A01582E4DEF1400920480 /* giggle2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87A013F2E4DEF1300920480 /* giggle2 */ = {
+			isa = PBXGroup;
+			children = (
+				F87A01402E4DEF1300920480 /* giggle2App.swift */,
+				F87A01422E4DEF1300920480 /* ContentView.swift */,
+				F87A01442E4DEF1400920480 /* Assets.xcassets */,
+				F87A01492E4DEF1400920480 /* giggle2.entitlements */,
+				F87A01462E4DEF1400920480 /* Preview Content */,
+			);
+			path = giggle2;
+			sourceTree = "<group>";
+		};
+		F87A01462E4DEF1400920480 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F87A01472E4DEF1400920480 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F87A01512E4DEF1400920480 /* giggle2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F87A01522E4DEF1400920480 /* giggle2Tests.swift */,
+			);
+			path = giggle2Tests;
+			sourceTree = "<group>";
+		};
+		F87A015B2E4DEF1400920480 /* giggle2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F87A015C2E4DEF1400920480 /* giggle2UITests.swift */,
+				F87A015E2E4DEF1400920480 /* giggle2UITestsLaunchTests.swift */,
+			);
+			path = giggle2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F87A013C2E4DEF1300920480 /* giggle2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87A01622E4DEF1400920480 /* Build configuration list for PBXNativeTarget "giggle2" */;
+			buildPhases = (
+				F87A01392E4DEF1300920480 /* Sources */,
+				F87A013A2E4DEF1300920480 /* Frameworks */,
+				F87A013B2E4DEF1300920480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = giggle2;
+			productName = giggle2;
+			productReference = F87A013D2E4DEF1300920480 /* giggle2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F87A014D2E4DEF1400920480 /* giggle2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87A01652E4DEF1400920480 /* Build configuration list for PBXNativeTarget "giggle2Tests" */;
+			buildPhases = (
+				F87A014A2E4DEF1400920480 /* Sources */,
+				F87A014B2E4DEF1400920480 /* Frameworks */,
+				F87A014C2E4DEF1400920480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87A01502E4DEF1400920480 /* PBXTargetDependency */,
+			);
+			name = giggle2Tests;
+			productName = giggle2Tests;
+			productReference = F87A014E2E4DEF1400920480 /* giggle2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F87A01572E4DEF1400920480 /* giggle2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87A01682E4DEF1400920480 /* Build configuration list for PBXNativeTarget "giggle2UITests" */;
+			buildPhases = (
+				F87A01542E4DEF1400920480 /* Sources */,
+				F87A01552E4DEF1400920480 /* Frameworks */,
+				F87A01562E4DEF1400920480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87A015A2E4DEF1400920480 /* PBXTargetDependency */,
+			);
+			name = giggle2UITests;
+			productName = giggle2UITests;
+			productReference = F87A01582E4DEF1400920480 /* giggle2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F87A01352E4DEF1300920480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F87A013C2E4DEF1300920480 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F87A014D2E4DEF1400920480 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F87A013C2E4DEF1300920480;
+					};
+					F87A01572E4DEF1400920480 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F87A013C2E4DEF1300920480;
+					};
+				};
+			};
+			buildConfigurationList = F87A01382E4DEF1300920480 /* Build configuration list for PBXProject "giggle2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F87A01342E4DEF1300920480;
+			productRefGroup = F87A013E2E4DEF1300920480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F87A013C2E4DEF1300920480 /* giggle2 */,
+				F87A014D2E4DEF1400920480 /* giggle2Tests */,
+				F87A01572E4DEF1400920480 /* giggle2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F87A013B2E4DEF1300920480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87A01482E4DEF1400920480 /* Preview Assets.xcassets in Resources */,
+				F87A01452E4DEF1400920480 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A014C2E4DEF1400920480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A01562E4DEF1400920480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F87A01392E4DEF1300920480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87A01432E4DEF1300920480 /* ContentView.swift in Sources */,
+				F87A01412E4DEF1300920480 /* giggle2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A014A2E4DEF1400920480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87A01532E4DEF1400920480 /* giggle2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87A01542E4DEF1400920480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87A015F2E4DEF1400920480 /* giggle2UITestsLaunchTests.swift in Sources */,
+				F87A015D2E4DEF1400920480 /* giggle2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87A01502E4DEF1400920480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87A013C2E4DEF1300920480 /* giggle2 */;
+			targetProxy = F87A014F2E4DEF1400920480 /* PBXContainerItemProxy */;
+		};
+		F87A015A2E4DEF1400920480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87A013C2E4DEF1300920480 /* giggle2 */;
+			targetProxy = F87A01592E4DEF1400920480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F87A01602E4DEF1400920480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F87A01612E4DEF1400920480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F87A01632E4DEF1400920480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = giggle2/giggle2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"giggle2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weisscorp.giggle2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F87A01642E4DEF1400920480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = giggle2/giggle2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"giggle2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weisscorp.giggle2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F87A01662E4DEF1400920480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weisscorp.giggle2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giggle2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/giggle2";
+			};
+			name = Debug;
+		};
+		F87A01672E4DEF1400920480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weisscorp.giggle2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/giggle2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/giggle2";
+			};
+			name = Release;
+		};
+		F87A01692E4DEF1400920480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weisscorp.giggle2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = giggle2;
+			};
+			name = Debug;
+		};
+		F87A016A2E4DEF1400920480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weisscorp.giggle2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = giggle2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F87A01382E4DEF1300920480 /* Build configuration list for PBXProject "giggle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87A01602E4DEF1400920480 /* Debug */,
+				F87A01612E4DEF1400920480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87A01622E4DEF1400920480 /* Build configuration list for PBXNativeTarget "giggle2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87A01632E4DEF1400920480 /* Debug */,
+				F87A01642E4DEF1400920480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87A01652E4DEF1400920480 /* Build configuration list for PBXNativeTarget "giggle2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87A01662E4DEF1400920480 /* Debug */,
+				F87A01672E4DEF1400920480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87A01682E4DEF1400920480 /* Build configuration list for PBXNativeTarget "giggle2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87A01692E4DEF1400920480 /* Debug */,
+				F87A016A2E4DEF1400920480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F87A01352E4DEF1300920480 /* Project object */;
+}
