@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct giggle2App: App {
+struct GiggleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
