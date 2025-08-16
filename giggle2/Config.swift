@@ -8,8 +8,8 @@
 import Foundation
 import Combine
 
-let BASE_HTTP = "http://127.0.0.1:8000"
-let BASE_WS   = "ws://127.0.0.1:8000"
+let BASE_HTTP = "https://giggle2.onrender.com"
+let BASE_WS   = "wss://giggle2.onrender.com"
 
 let ALL_GENTS: [String] = ["gent-1", "gent-2", "gent-3", "gent-4", "gent-5"]
 
